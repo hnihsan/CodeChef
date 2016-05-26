@@ -3,13 +3,14 @@ class CC_WDTBAM{
 	public static void main(String[] args){
 		StringBuffer ss,js;
 		Scanner in = new Scanner(System.in);
-		int i,T,t,N,X=0;
+		int i,T,t,N,X;
 		String[][] s = new String[2][1000];		
 		int[][] an = new int[2][1001];
  
 		//input
 		T=in.nextInt();
-		for(t=0;t<T;t++){			
+		for(t=0;t<T;t++){
+			X=0;
 			N=in.nextInt();
 			s[0][t]=in.next();			
 			s[1][t]=in.next();
